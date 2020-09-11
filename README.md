@@ -106,3 +106,6 @@ tensorboard --logdir logs/ --port 8888 --host localhost
 We provide the model weights for the trained model on ECFP6 representations of length 1024 trained on the cluster split and show the performance on the 
 cluster validation dataset and temporal dataset in  in the Notebook `source/evaluation.ipynb`.
 
+## References
+[1] T. Le, R. Winter, F. Noe and D. Clevert, Chem. Sci., 2020, [DOI: 10.1039/D0SC03115A](https://doi.org/10.1039/D0SC03115A)
+
