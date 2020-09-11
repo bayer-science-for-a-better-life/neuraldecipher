@@ -1,7 +1,7 @@
 # Neuraldecipher
 Implementation of the Paper "Neuraldecipher - Reverse-engineering extended-connectivity fingerprints (ECFPs) to their molecular structures" by Tuan Le, Robin Winter, Frank Noé and Djork-Arné Clevert.<sup>1</sup>
 
-![workflow](https://github.com/tuanle618/neuraldecipher/blob/master/figures/workflow.png "Workflow")
+![workflow](https://github.com/bayer-science-for-a-better-life/neuraldecipher/blob/master/figures/workflow.png "Workflow")
 
 ## Installation
 ### Prerequisites: python==3.6.10
