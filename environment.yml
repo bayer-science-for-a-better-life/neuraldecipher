@@ -1,0 +1,13 @@
+name: neuraldecipher
+channels:
+  - anaconda
+  - conda-forge
+  - rdkit
+  - defaults
+dependencies:
+  - anaconda::python=3.6.10
+  - anaconda::numpy=1.18.1
+  - anaconda::h5py=2.10.0
+  - anaconda::jupyter=1.0.0
+  - conda-forge::tqdm=4.46.0
+  - rdkit::rdkit=2020.03.2

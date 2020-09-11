@@ -1,0 +1,30 @@
+{
+	"neuraldecipher":{
+	"input_dim": 1024,
+	"output_dim": 512,
+	"layers": [1024,768,512],
+	"dropout": 0.0,
+	"normalization": "batch",
+	"use_tanh": true,
+	"activation": "relu",
+	"norm_before": false
+	}
+,
+
+	"training":{
+		"lr": 0.00001,
+		"b1": 0.9,
+		"b2": 0.999,
+		"weight_decay": 0.00005,
+		"loss": "log-cosh",
+		"start_epoch": 0,
+		"n_epochs": 300,
+		"patience": 10,
+		"batch_size": 256,
+		"seed": 42,
+		"device": "cuda:0",
+		"output_dir": "1024_final_model_cs_gpu",
+		"data_dir": "data/dfFold1024/ecfp6_train_c.npy",
+		"radii": 3
+	}
+}

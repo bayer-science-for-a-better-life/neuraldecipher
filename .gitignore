@@ -1,0 +1,21 @@
+# ignore
+.DS_store*
+.idea*
+*__pycache__*
+*.pyc
+*.pytest_cache*
+source/.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+
+data/cddd.hdf5
+data/*/ecfp*.npy
+
+logs/*
+!logs/README.md
+
+#models/*
+#!models/README.md
+#!models/1024_final_model_cs_gpu/*
+
+cddd
+
