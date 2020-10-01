@@ -43,7 +43,7 @@ We provided a Jupyter Notebook in `source/get_cddd.ipynb` to compute the CDDD re
 The repository consists of several subdirectories:
 - `data` consists of the training and test data.
 - `logs` consists of the tensorboard log files for each training run
-- `params` consists of the json parameter files for each run. See [example](https://github.com/tuanle618/neuraldecipher/blob/master/params/1024_config_bit_gpu.json "example param file for ECFP6_1024 Bits training").
+- `params` consists of the json parameter files for each run. See [example](https://github.com/bayer-science-for-a-better-life/neuraldecipher/blob/master/params/1024_config_count_gpu.json "example param file for ECFP6_1024 Bits training").
 - `models` consists of the saved models. In case the Neuraldecipher was trained on bit-ECFPs, the results are saved in `models/bits_results`. Otherwise the models are saved in `models`.
 - `source` consists of all necessary python scripts for execution.
   
